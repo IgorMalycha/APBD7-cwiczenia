@@ -6,8 +6,9 @@ public class AddWarehouseProduct
 {
     [Required]
     public int IdProduct{ get; set; }
+    
     [Required]
-    public int Type { get; set; }
+    public int IdWarehouse { get; set; }
     [Required]
     public int Amount { get; set; }
     [Required]
